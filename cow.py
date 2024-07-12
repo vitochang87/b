@@ -13,6 +13,7 @@ with col1:
 if "history" not in st.session_state:  # 初始化對話紀錄
     st.session_state.history = []  # 對話紀錄
 
+
 with col2:
     if st.button("🗑️"):  # 清空對話紀錄
         st.session_state.history = []  # 對話紀錄清空
