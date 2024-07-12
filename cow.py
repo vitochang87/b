@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_openai import ChatOpenAI  # pip install -U langchain-openai
+from langchain_openai import ChatOpenAI  # 嘗試這個導入方式
 from langchain_core.messages import HumanMessage, AIMessage  # pip install langchain
 
 col1, col2 = st.columns([4, 1])
